@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:18.2.0"],\
             ["react-router-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:6.21.1"],\
+            ["react-toastify", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:9.1.3"],\
             ["tailwindcss", "npm:3.4.1"],\
             ["vite", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:5.0.11"]\
           ],\
@@ -1579,10 +1580,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:18.2.0"],\
             ["react-router-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:6.21.1"],\
+            ["react-toastify", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:9.1.3"],\
             ["tailwindcss", "npm:3.4.1"],\
             ["vite", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:5.0.11"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["clsx", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-30befca801.zip/node_modules/clsx/",\
+          "packageDependencies": [\
+            ["clsx", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["color-convert", [\
@@ -4105,6 +4116,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:18.2.0"],\
             ["react-router", "virtual:a0c3615a349c7727f03612cb16852387795ebe364e43c5d995866f5eaf8c40e65f882d9234ddf51b83de7db59e1a3d48c06ba084b1a96da6c33a0207e509935b#npm:6.21.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-toastify", [\
+        ["npm:9.1.3", {\
+          "packageLocation": "./.yarn/cache/react-toastify-npm-9.1.3-2f82dd0b41-e8bd92c5cb.zip/node_modules/react-toastify/",\
+          "packageDependencies": [\
+            ["react-toastify", "npm:9.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:9.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-toastify-virtual-3f29e97793/0/cache/react-toastify-npm-9.1.3-2f82dd0b41-e8bd92c5cb.zip/node_modules/react-toastify/",\
+          "packageDependencies": [\
+            ["react-toastify", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:9.1.3"],\
+            ["@types/react", "npm:18.2.47"],\
+            ["@types/react-dom", "npm:18.2.18"],\
+            ["clsx", "npm:1.2.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:355fb90b74d641bc7e9ddf17cda6abc1afb00df199733b8e97d302c922783fcf2f42fbdf9294671c1b8ebfce3ac89c52b5645f83baff0f5e87009a2e1759b955#npm:18.2.0"]\
           ],\
           "packagePeers": [\
             "@types/react-dom",\
