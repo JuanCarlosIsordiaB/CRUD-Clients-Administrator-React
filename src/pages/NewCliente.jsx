@@ -43,9 +43,8 @@ export const NewCliente = () => {
     axios.post('https://json-server-api-mocha.vercel.app/clientes/', inputData)
       .then(e => {
        
-        navigate('/')
+        console.log('added');
       })
-
       toast.success('Client Added', {
         position: "top-right",
         autoClose: 5000,
@@ -56,6 +55,7 @@ export const NewCliente = () => {
         progress: undefined,
         theme: "light",
       });
+      navigate('/')
   }
 
   return (
