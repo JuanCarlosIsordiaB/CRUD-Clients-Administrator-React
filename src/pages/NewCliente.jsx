@@ -55,7 +55,8 @@ export const NewCliente = () => {
         progress: undefined,
         theme: "light",
       });
-      navigate('/')
+      navigate('/');
+      window.location.reload();
   }
 
   return (

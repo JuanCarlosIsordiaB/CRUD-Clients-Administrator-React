@@ -24,13 +24,13 @@ export const Cliente = ({client}) => {
             progress: undefined,
             theme: "light",
           });
-          window.location.reload();
+          
         })
         .catch(error => {
           console.error(error);
           toast.error('Error', { position: toast.POSITION.BOTTOM_CENTER });
         });
-      
+        window.location.reload();
     }
   };
   

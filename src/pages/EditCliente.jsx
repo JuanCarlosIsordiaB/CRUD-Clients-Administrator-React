@@ -29,13 +29,13 @@ export const EditCliente = () => {
     axios.put(`http://localhost:3000/clientes/${id}`, inputData)
       .then(response => {
         alert('Client Updated');
-        navigate('/');
+        
       })
       .catch(error => {
         console.error('Error: ', error);
     
       });
-      
+      navigate('/');
   };
 
   return (
