@@ -17,7 +17,7 @@ export const EditCliente = () => {
   });
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/clientes/${id}`)
+    axios.get(`https://json-server-api-mocha.vercel.app/clientes/${id}`)
       .then(res => setInputData(res.data))
       .catch(error => console.error('Error al obtener datos del cliente:', error));
   }, []);

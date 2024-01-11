@@ -12,7 +12,7 @@ export const Cliente = ({client}) => {
   const handleDelete = () => {
     const confirmDelete = window.confirm('Are you sure to delete it?');
     if (confirmDelete) {
-      axios.delete(`http://localhost:3000/clientes/${id}`)
+      axios.delete(`https://json-server-api-mocha.vercel.app/clientes/${id}`)
         .then(response => {
           toast.success('All fields are required', {
             position: "top-right",

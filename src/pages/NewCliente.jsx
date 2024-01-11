@@ -40,7 +40,7 @@ export const NewCliente = () => {
       return;
     }
     
-    axios.post('http://localhost:3000/clientes/', inputData)
+    axios.post('https://json-server-api-mocha.vercel.app/clientes/', inputData)
       .then(e => {
        
         navigate('/')

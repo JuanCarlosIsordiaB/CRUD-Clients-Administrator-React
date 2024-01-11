@@ -10,7 +10,7 @@ export const Index = () => {
 
 
     useEffect(() => {
-      axios.get('http://localhost:3000/clientes')
+      axios.get('https://json-server-api-mocha.vercel.app/clientes')
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
